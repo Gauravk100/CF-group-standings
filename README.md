@@ -1,6 +1,6 @@
 # Codeforces Group Standings Project
 ## Description
-This project retrieves and displays the standings for Codeforces contests for a specific group. The data is processed through a Python backend, which connects to the Codeforces API, and a frontend that displays the information interactively on a web page. The project also allows for exporting standings to a CSV file.
+This project retrieves and displays the standings for Codeforces contests for a specific group. The data is processed through a Python backend, which connects to the Codeforces API. The project also allows for exporting standings to a CSV file.
 
 ## Features
 Fetch standings for specific Codeforces contests within a group.
@@ -8,8 +8,7 @@ Display contestant rankings, scores, and other details on a web interface.
 Export contestant data to a CSV file.
 
 ## Project Structure
-application.py: The main backend script in Python that interacts with the Codeforces API, processes contest data, and handles requests from the frontend.
-frontend/: Contains HTML, CSS, and JavaScript files for the user interface, displaying the standings.
+application.py: The main backend script in Python that interacts with the Codeforces API, processes contest data.
 README.md: Documentation for the project.
 requirements.txt: Lists dependencies for the Python backend.
 
